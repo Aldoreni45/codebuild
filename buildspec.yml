@@ -5,7 +5,7 @@ env:
     IMAGE_NAME: simple-fastapi-cicd
     DOCKERHUB_USERNAME: aldoreni
   parameter-store:
-    DOCKERHUB_PASSWORD: /testingappdockerpassword
+    DOCKERHUB_PASSWORD: /testingappdockerpasswords
 
 phases:
   install:
