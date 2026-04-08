@@ -1,0 +1,19 @@
+[project]
+name = "simple-fastapi-cicd"
+version = "0.1.0"
+description = "Simple FastAPI project for CI/CD practice"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+  "fastapi>=0.116.1",
+  "uvicorn>=0.35.0",
+]
+
+[project.optional-dependencies]
+dev = [
+  "pytest>=8.4.2",
+  "httpx>=0.28.1",
+]
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
